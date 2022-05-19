@@ -1,1 +1,21 @@
 
+/* Max height added with properties */
+.ms-vb2 .ms-rtestate-field {
+
+    min-width: 200px;
+  
+    max-width: 250px;
+  
+    max-height: 50px;
+  
+    overflow: hidden;
+  
+  }
+  /* This removes the max height property */  
+  .ms-vb2 .ms-rtestate-field:hover {
+  
+    max-height: none;
+  
+  }
+  
+  
